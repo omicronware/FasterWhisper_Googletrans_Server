@@ -7,7 +7,7 @@ This repository contains a transcription and translation server based on **faste
 - **Fast and accurate speech recognition** using [faster-whisper](https://github.com/SYSTRAN/faster-whisper)
 - **Automatic language detection and translation** using [googletrans](https://github.com/ssut/py-googletrans)
 - **Supports multi-client requests** with **Flask** and **gevent** for concurrency
-- **CUDA acceleration** for enhanced performance on Windows
+- **CUDA acceleration** for enhanced performance on Windows [NVIDIA Driver](https://www.nvidia.com/drivers/) [CUDA12](https://developer.nvidia.com/cuda-toolkit) [cudnn9.6](https://developer.nvidia.com/cudnn)
 - **Transcription and translation APIs** accessible via HTTP/HTTPS
 
 ## Installation
